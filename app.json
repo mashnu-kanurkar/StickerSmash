@@ -7,15 +7,21 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.StickerSmash",
+      "infoPlist":{
+        "CleverTapAccountID":"WW6-ZRZ-676Z",
+        "CleverTapToken":"121-600"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.StickerSmash"
     },
     "web": {
       "bundler": "metro",
@@ -23,6 +29,22 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "./plugins/withCTManifestAndroid.js",
+    "./plugins/withCTPodIOS.js",
+    "./plugins/withCTAppDelegateIOS.js",
+    "./plugins/withCTApplicationClassAndroid.js",
+    [
+      "expo-android-app-gradle-dependencies",
+      {
+        "spacing": "    ",
+        "dependencies": [
+          "com.clevertap.android:clevertap-android-sdk:6.2.1",
+          "com.clevertap.android:push-templates:1.2.3",
+          "com.squareup.okhttp3:okhttp:5.0.0-alpha.11",
+          "com.squareup.okhttp3:okhttp-urlconnection:5.0.0-alpha.11"
+        ]
+      }
+    ],
       "expo-router",
       [
         "expo-splash-screen",

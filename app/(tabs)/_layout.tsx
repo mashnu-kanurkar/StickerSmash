@@ -25,7 +25,7 @@ export default function TabLayout() {
     fetchUnreadCount();
 
     // Optionally, set an interval to fetch the count periodically
-    const interval = setInterval(fetchUnreadCount, 50000); // Fetch every 30s
+    const interval = setInterval(fetchUnreadCount, 30000); // Fetch every 30s
 
     return () => clearInterval(interval); // Cleanup interval on unmount
   }, []);

@@ -14,7 +14,7 @@
 		96905EF65AED1B983A6B3ABC /* libPods-StickerSmash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-StickerSmash.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		5A8B6FD4F04E469884A3A231 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42CFBACED04971BF756CAF /* noop-file.swift */; };
+		5C06F3F1830040ECB94D3E5F /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37412B7C22AF4D02B3C2B136 /* noop-file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-StickerSmash/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		7F42CFBACED04971BF756CAF /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "StickerSmash/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		DDE5ECDAF4884BD494220BF9 /* StickerSmash-Bridging-Header.h */ = {isa = PBXFileReference; name = "StickerSmash-Bridging-Header.h"; path = "StickerSmash/StickerSmash-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		37412B7C22AF4D02B3C2B136 /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "StickerSmash/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		4895A8C7979B4782857E44AB /* StickerSmash-Bridging-Header.h */ = {isa = PBXFileReference; name = "StickerSmash-Bridging-Header.h"; path = "StickerSmash/StickerSmash-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				7F42CFBACED04971BF756CAF /* noop-file.swift */,
-				DDE5ECDAF4884BD494220BF9 /* StickerSmash-Bridging-Header.h */,
+				37412B7C22AF4D02B3C2B136 /* noop-file.swift */,
+				4895A8C7979B4782857E44AB /* StickerSmash-Bridging-Header.h */,
 			);
 			name = StickerSmash;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				97561C3C0EF44F788B92D63D /* StickerSmash-Bridging-Header.h in Resources */,
+				583BA21A340E441EB0623854 /* StickerSmash-Bridging-Header.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				5A8B6FD4F04E469884A3A231 /* noop-file.swift in Sources */,
+				5C06F3F1830040ECB94D3E5F /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
